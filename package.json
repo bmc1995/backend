@@ -1,0 +1,22 @@
+{
+  "name": "quikxpress",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "start-watch": "nodemon --watch ./ --ext js,json --exec \"node ./bin/www\""
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "~1.4.7",
+    "cors": "^2.8.5",
+    "debug": "~4.4.3",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "~1.10.1",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
