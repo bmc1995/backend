@@ -1,4 +1,4 @@
-FROM node:20-bookworm-slim
+FROM node:20-slim
 
 # defaults to production, compose overrides this to development on build and run
 ARG NODE_ENV=production
